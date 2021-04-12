@@ -1,4 +1,4 @@
-package com.phuoc.chatrealtimeandroid;
+package com.phuoc.chatrealtimeandroid.Activity;
 
 import android.os.Bundle;
 import android.view.View;
@@ -18,6 +18,10 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.phuoc.chatrealtimeandroid.Message;
+import com.phuoc.chatrealtimeandroid.MessageAdapter;
+import com.phuoc.chatrealtimeandroid.R;
+import com.phuoc.chatrealtimeandroid.User;
 
 import java.util.ArrayList;
 

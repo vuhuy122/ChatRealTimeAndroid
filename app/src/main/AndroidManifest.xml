@@ -16,7 +16,7 @@
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
         <activity android:name=".Activity.HomeActivity" />
         <activity
-            android:name=".MessageActivity"
+            android:name=".Activity.MessageActivity"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
         <activity
             android:name=".Activity.MainActivity"

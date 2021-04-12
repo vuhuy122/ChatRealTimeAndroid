@@ -12,14 +12,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ProgressBar;
-import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.phuoc.chatrealtimeandroid.MessageActivity;
 import com.phuoc.chatrealtimeandroid.Profile;
 import com.phuoc.chatrealtimeandroid.R;
 import com.phuoc.chatrealtimeandroid.User;
