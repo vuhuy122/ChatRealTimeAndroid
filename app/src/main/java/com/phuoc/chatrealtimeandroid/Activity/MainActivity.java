@@ -100,7 +100,6 @@ public class MainActivity extends AppCompatActivity {
                     handlerSignUp();
                 }
                 else {
-                    Toast.makeText(MainActivity.this, "Log in", Toast.LENGTH_SHORT).show();
                     handlerLogin();
                 }
             }

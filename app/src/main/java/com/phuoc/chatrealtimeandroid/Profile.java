@@ -13,6 +13,7 @@ import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -30,7 +31,7 @@ import java.util.UUID;
 public class Profile extends AppCompatActivity {
     private Button btnLogOut, btnUpload;
     private ImageView imgProfile;
-
+    private TextView txtUsername;
     private Uri imgPath;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +40,7 @@ public class Profile extends AppCompatActivity {
         btnLogOut = findViewById(R.id.btnLogOut);
         btnUpload = findViewById(R.id.btnUploadIMG);
         imgProfile = findViewById(R.id.imgProfile);
+        txtUsername = findViewById(R.id.txtUserEmail);
 
         btnLogOut.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,7 +50,7 @@ public class Profile extends AppCompatActivity {
                 finish();
             }
         });
-
+        txtUsername.setText(FirebaseAuth.getInstance().getCurrentUser().getEmail());
         imgProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
