@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "298505017422",
+    "project_id": "chatrealtime-21070",
+    "storage_bucket": "chatrealtime-21070.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298505017422:android:eeef353091d0e1663bcb1f",
+        "android_client_info": {
+          "package_name": "com.phuoc.chatrealtimeandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298505017422-6tsoj6nd1do4rgehno11e7v40kqdembf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCed3PA8UmteBWWWelHPhYf4cRbSJrW3nQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298505017422-6tsoj6nd1do4rgehno11e7v40kqdembf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
